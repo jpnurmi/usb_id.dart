@@ -1,0 +1,23 @@
+name: usb_id
+description: >-
+  A repository of all known ID's used in USB devices: ID's of vendors, devices,
+  subsystems and device classes. This package can be utilized to display
+  human-readable names instead of cryptic numeric codes.
+homepage: http://www.linux-usb.org/usb-ids.html
+repository: https://github.com/jpnurmi/usb_id.dart
+issue_tracker: https://github.com/jpnurmi/usb_id.dart/issues
+version: 0.1.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  args: ^2.0.0
+  equatable: ^2.0.0
+  path: ^1.8.0
+  quiver: ^3.0.1
+
+dev_dependencies:
+  lint: ^1.5.3
+  test: ^1.16.0
+  test_cov: ^1.0.1

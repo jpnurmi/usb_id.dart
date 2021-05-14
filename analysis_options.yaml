@@ -1,0 +1,10 @@
+include: package:lint/analysis_options_package.yaml
+
+analyzer:
+  exclude: [lib/src/*.g.dart, example/**, test/**]
+
+linter:
+  rules:
+    avoid_classes_with_only_static_members: false
+    avoid_escaping_inner_quotes: false
+    public_member_api_docs: true
